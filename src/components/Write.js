@@ -23,7 +23,7 @@ export default function Write() {
 
   return (
     <div>
-      <h1>WRITE / HOMEPAGE</h1>
+      <h1>WRITE / HOMEPAGE t</h1>
       <input type='text' value={inputValue1} onChange={(e) => setInputValue1(e.target.value)}/>
       <input type='text' value={inputValue2} onChange={(e) => setInputValue2(e.target.value)}/> <br/>
       <button onClick={saveData}>SAVE DATA</button> <br/><br/>
